@@ -1,0 +1,35 @@
+* {
+  font-family:  nunito , fantasy;
+  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+ul {
+  text-align: center;
+}
+p
+{
+  font-size: 16px;
+}
+div
+{
+  font-size: 16px;
+  border-radius: 10px;
+  border: solid black 1px;
+}
+a {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+}
+.notion {
+  font-style: italic;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: right;
+  font-style: italic;
+}

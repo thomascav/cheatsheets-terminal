@@ -1,3 +1,6 @@
+body {
+  min-width: 70em;
+}
 * {
   font-family:  nunito , fantasy;
   padding: 0.313em;
@@ -16,15 +19,21 @@ div
   font-size: 1em;
   border-radius: 0.625em;
   border: solid black 0.062em;
+  padding: 1em;
+  margin: 0.1em;
+  width: 90%;
+  min-width: 70em;
 }
 a {
   font-style: italic;
   font-weight: bold;
   font-size: 1.125em;
+
 }
 .notion {
   font-style: italic;
   font-weight: bold;
+  min-width: 70em;
 }
 h1 {
   text-align: center;

@@ -1,8 +1,8 @@
 @media only screen and (min-width = 321px) {
-  div {font-size: 110%;}
+  div {font-size: 80%;}
 }
 @media screen and (orientation : portrait) {
-  div {font-size: 110%}
+  div {font-size: 80%}
 }
 body {
   min-width: 70em;

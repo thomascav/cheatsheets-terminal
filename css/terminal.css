@@ -1,6 +1,14 @@
 body {
   min-width: 70em;
 }
+a.top {
+   position: fixed;
+   bottom: 0px;
+   right: 0px;
+   background-color: black;
+   color: white;
+   text-decoration: none;
+ }
 * {
   font-family:  nunito , fantasy;
   padding: 0.313em;
@@ -9,7 +17,7 @@ body {
 }
 ul {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.9em;
 }
 p
 {
@@ -42,6 +50,11 @@ p
   height:7.8em;
   background-color:#7B26B2;
 }
+#rmchapter {
+  width: 80%;
+  height:7.8em;
+  background-color:#1CB25E;
+}
 #mkdirchapter {
   width: 80%;
   height:7.5em;
@@ -53,7 +66,7 @@ p
   background-color:#B1B22D;
 }
 div {
-  font-size: 2em;
+  font-size: 1.9em;
   border-radius: 0.625em;
   border: solid black 0.062em;
   padding: 1em;

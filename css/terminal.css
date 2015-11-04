@@ -23,6 +23,13 @@ p
 {
   font-size: 1em;
 }
+#logo {
+  max-width: 120px;
+  height: 100%;
+  height: auto;
+  margin: auto;
+  float: left;
+}
 #titre {
   width: 80%;
   height:8.13em;

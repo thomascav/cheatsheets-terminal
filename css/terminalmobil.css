@@ -1,4 +1,7 @@
 div {
-  font-size: 1.5em;
+  font-size: 0.9em;
   width: 95%;
+}
+body {
+  max-width: 320px;
 }

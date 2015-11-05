@@ -1,5 +1,6 @@
 body {
   min-width: 70em;
+  background-color: #6161FF;
 }
 .top {
    position: fixed;
@@ -30,7 +31,7 @@ p
   margin: auto;
   float: left;
 }
-#titre {
+/*#titre {
   width: 95%;
   height:8.13em;
   border-radius: 0.625;
@@ -71,15 +72,16 @@ p
   width: 95%;
   height:2em;
   background-color:#B1B22D;
-}
+}*/
 div {
   font-size: 1.9em;
-  border-radius: 0.625em;
+  border-radius: 0.5em;
   border: solid black 0.062em;
-  padding: 1em;
-  margin: 0.1em;
-  width: 50%;
+  padding: 2em;
+  margin : auto;
+  width: 80%;
   min-width: 10em;
+  background-color: #4847FF;
 }
 a {
   font-style: italic;
@@ -101,4 +103,23 @@ h1 {
 h3 {
   text-align: right;
   font-style: italic;
+}
+#nav {
+  width: 88%;
+	padding: 0; margin: 0;
+	text-align: center;
+  background-color: black;
+  border-radius: 0.5em;
+  color : white;
+  box-shadow: 0.06em 0.06em 0.75em #555;
+  margin-left: auto;
+  margin-right: auto;
+}
+#nav li {
+	display: inline;
+	list-style: none;
+#nav a {
+	display:inline-block;
+	margin:10%;
+  color: white;
 }

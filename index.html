@@ -1,63 +1,90 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/terminal.css" />
     <link rel="stylesheet" href="css/terminalmobil.css" media="screen and (max-width = 767px)" />
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
     <title>Cheat Sheets Terminal</title>
-  </head>
+</head>
+
 <body>
     <a href="#top" class="top">Haut de page</a>
     <div id="titre">
-    <img id="logo" src="terminal.png" alt="terminal logo" />
-     <h1><a name="top">Terminal - CheatSheets -</a></h1>
-     <h3>Quelques commandes du terminal qui dépannent...</h3>
+        <img id="logo" src="terminal.png" alt="terminal logo" />
+        <h1><a name="top">Terminal - CheatSheets -</a></h1>
+        <h3>Quelques commandes du terminal qui dépannent...</h3>
     </div>
-      <ul id="nav">
-       <!--ancre--><li><a href="#ls" title ="permet de lister le contenu d'un répertoire">ls</a></li>
-        <li><a href="#cd" title ="permet de changer de répertoire" >cd</a></li>
-        <li><a href="#cp" title ="permet de copier des éléments, le premier dans le suivant">cp</a></li>
-        <li><a href="#mv" title ="permet de copier un fichier, le 1er dans le suivant, peut servir à renommer">mv</a></li>
-        <li><a href="#rm" title ="permet de supprimer un fichier ou dossier, ! pas de recours possible !">rm</a></li>
-        <li><a href="#mkdir" title ="permet la création d'un dossier">mkdir</a></li>
-        <li><a href="#man" title ="permet d'afficher toutes les options de la commande">man</a></li>
-      </ul>
+    <ul id="nav">
+        <!--ancre-->
+        <li><a href="#ls" title="permet de lister le contenu d'un répertoire">ls</a></li>
+        <li><a href="#cd" title="permet de changer de répertoire">cd</a></li>
+        <li><a href="#cp" title="permet de copier des éléments, le premier dans le suivant">cp</a></li>
+        <li><a href="#mv" title="permet de copier un fichier, le 1er dans le suivant, peut servir à renommer">mv</a></li>
+        <li><a href="#rm" title="permet de supprimer un fichier ou dossier, ! pas de recours possible !">rm</a></li>
+        <li><a href="#mkdir" title="permet la création d'un dossier">mkdir</a></li>
+        <li><a href="#man" title="permet d'afficher toutes les options de la commande">man</a></li>
+    </ul>
 
-  <div id="lschapter">
-    La commande <strong><a id="ls">ls</a><!--ancre--></strong> permet de lister les dossiers et les fichiers d'un répertoire.
-      <p><a class="notion">ls -a</a> permet le lister tous les éléments d'un répertoire, même les cachés</p>
-      <p><a class="notion">ls -l</a> liste tous les éléments sous forme de tableau de manière détaillée.</p>
-  </div>
-	<div id="cdchapter">
-    La commande <strong><a id="cd">cd</a><!--ancre--></strong> permet de changer de répertoire.
-      <p><a class="notion">cd .. </a>permet de remonter au dossier parent.</p>
-      <p><a class="notion">cd /</a> permet de remonter à la racine du disque.</p>
-      <p><a class="notion">pwd</a> affiche le chemin absolu du répertoire courant.</p>
-      <p><a class="notion">cd /x/xx</a> aller directement dans le sous dossier xx du dossier x.</p>
-  </div>
-	<div id="cpchapter">
-  La commande <strong><a id="cp">cp</a><!--ancre--></strong> permet de copier un fichier, le 1er dans le suivant, peut servir à renommer.
-  </div>
-	<div id="mvchapter">
-      La commande <strong><a id="mv">mv</a><!--ancre destination à identifer avec name=""--></strong> correspond à la fonction "couper".
-      <p><a class="notion">mv X/x.txt y/</a> déplace le fichier x.txt dans le dossier y</p>
-      <p><a class="notion">mv x.txt y.txt</a> renomme le fichier x.txt en y.txt</p>
-  </div>
-  <div id="rmchapter">
-        La commande <strong><a id="rm">rm</a><!--ancre destination à identifer avec name=""--></strong> permet de supprimer un élément.
+    <div id="lschapter">
+        La commande
+        <strong><a id="ls">ls</a>
+            <!--ancre-->
+        </strong> permet de lister les dossiers et les fichiers d'un répertoire.
+        <p><a class="notion">ls -a</a> permet le lister tous les éléments d'un répertoire, même les cachés</p>
+        <p><a class="notion">ls -l</a> liste tous les éléments sous forme de tableau de manière détaillée.</p>
+    </div>
+    <div id="cdchapter">
+        La commande
+        <strong><a id="cd">cd</a>
+            <!--ancre-->
+        </strong> permet de changer de répertoire.
+        <p><a class="notion">cd .. </a>permet de remonter au dossier parent.</p>
+        <p><a class="notion">cd /</a> permet de remonter à la racine du disque.</p>
+        <p><a class="notion">pwd</a> affiche le chemin absolu du répertoire courant.</p>
+        <p><a class="notion">cd /x/xx</a> aller directement dans le sous dossier xx du dossier x.</p>
+    </div>
+    <div id="cpchapter">
+        La commande
+        <strong><a id="cp">cp</a>
+            <!--ancre-->
+        </strong> permet de copier un fichier, le 1er dans le suivant, peut servir à renommer.
+    </div>
+    <div id="mvchapter">
+        La commande
+        <strong><a id="mv">mv</a>
+            <!--ancre destination à identifer avec name=""-->
+        </strong> correspond à la fonction "couper".
+        <p><a class="notion">mv X/x.txt y/</a> déplace le fichier x.txt dans le dossier y</p>
+        <p><a class="notion">mv x.txt y.txt</a> renomme le fichier x.txt en y.txt</p>
+    </div>
+    <div id="rmchapter">
+        La commande
+        <strong><a id="rm">rm</a>
+            <!--ancre destination à identifer avec name=""-->
+        </strong> permet de supprimer un élément.
         <p><a class="notion">! Attention, pas de recours possible !</a></p>
         <p><a class="notion">rm -m</a> efface un dossier et tous ses enfants</p>
-  </div>
-  <div id="mkdirchapter">
-      La commande <strong><a id="mkdir">mkdir</a><!--ancre--></strong> permet de créer un dossier.
-      <p><a class="notion">mkdir x</a> permet de créer le dossier x</p>
-      <p><a class="notion">mkdir -p x/y/z</a> permet de créer l'arborescence x/y/z</p>
-  </div>
-  <div id="manchapter">
-      La commande <strong><a id="man" class="notion">man</a><!--ancre--></strong> permet d'afficher toutes les options de la commande (tapée après man).
-  </div>
-  <p><em>Voici un lien vers le site dont je me suis inspiré :<a href="http://juliend.github.io/linux-cheatsheet/" title ="http://juliend.github.io/linux-cheatsheet">ici</a></em></p>
+    </div>
+    <div id="mkdirchapter">
+        La commande
+        <strong><a id="mkdir">mkdir</a>
+            <!--ancre-->
+        </strong> permet de créer un dossier.
+        <p><a class="notion">mkdir x</a> permet de créer le dossier x</p>
+        <p><a class="notion">mkdir -p x/y/z</a> permet de créer l'arborescence x/y/z</p>
+    </div>
+    <div id="manchapter">
+        La commande
+        <strong><a id="man" class="notion">man</a>
+            <!--ancre-->
+        </strong> permet d'afficher toutes les options de la commande (tapée après man).
+    </div>
+    <p>
+        <em>Voici un lien vers le site dont je me suis inspiré :<a href="http://juliend.github.io/linux-cheatsheet/" title="http://juliend.github.io/linux-cheatsheet">ici</a></em>
+    </p>
 </body>
+
 </html>

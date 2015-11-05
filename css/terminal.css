@@ -32,48 +32,6 @@ p
   margin: auto;
   float: left;
 }
-/*#titre {
-  width: 95%;
-  height:8.13em;
-  border-radius: 0.625;
-  background-color:#6368FF;
-
-}
-#lschapter {
-  width: 95%;
-  height:8em;
-  background-color:#FFBF4F;
-}
-#cdchapter {
-  width: 95%;
-  height:14em;
-  background-color:#C56EFF;
-}
-#cpchapter {
-  width: 95%;
-  height:2em;
-  background-color:#44CC7F;
-}
-#mvchapter {
-  width: 95%;
-  height:8em;
-  background-color:#7B26B2;
-}
-#rmchapter {
-  width: 95%;
-  height:8em;
-  background-color:#1CB25E;
-}
-#mkdirchapter {
-  width: 95%;
-  height:8em;
-  background-color:#FF544F;
-}
-#manchapter {
-  width: 95%;
-  height:2em;
-  background-color:#B1B22D;
-}*/
 div {
   font-size: 1.9em;
   border-radius: 0.5em;
@@ -87,7 +45,7 @@ div {
 a {
   font-style: italic;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.3em;
 
 }
 .notion {

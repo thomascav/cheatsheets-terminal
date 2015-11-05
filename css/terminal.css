@@ -39,7 +39,7 @@ div {
   margin : auto;
   width: 80%;
   min-width: 10em;
-  background-color: #4847FF;
+  background-color: #8794BF;
 }
 a {
   font-style: italic;
@@ -80,5 +80,5 @@ h3 {
 	display:inline-block;
 	margin:10%;
   color: white;
-  font-size: 1.1em
+  font-size: 1.3em
 }

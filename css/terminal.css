@@ -1,90 +1,172 @@
-/**@media all and (max-width: 1024px) {
-    body {
-        width: 100%;
-        margin: 0px;
-    }*/
-}
 body {
-  min-width: 70em;
-  background-color: #6161FF;
+    background-color: #6161FF;
 }
 .top {
-   position: fixed;
-   bottom: 0px;
-   right: 0px;
-   background-color: black;
-   color: white;
-   text-decoration: none;
- }
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
 * {
-  font-family:  nunito , fantasy;
-  padding: 0.313em;
-  padding-top: 0.313em;
-  padding-bottom: 0.313em;
+    font-family: nunito, fantasy;
+    padding-top: 0.313em;
+    padding-bottom: 0.313em;
 }
 ul {
-  text-align: center;
-  font-size: 1.9em;
+    text-align: center;
+    font-size: 1.9em;
 }
-p
-{
-  font-size: 1em;
+p {
+    font-size: 1em;
 }
 #logo {
-  max-width: 180px;
-  height: 100%;
-  height: auto;
-  margin: auto;
-  float: left;
+    max-width: 180px;
+    height: 100%;
+    height: auto;
+    margin: auto;
+    float: left;
 }
 div {
-  font-size: 1.9em;
-  border-radius: 0.5em;
-  border: solid black 0.062em;
-  padding: 2em;
-  margin : auto;
-  width: 80%;
-  min-width: 10em;
-  background-color: #8794BF;
+    font-size: 1.9em;
+    border-radius: 0.5em;
+    border: solid black 0.062em;
+    padding: 2em;
+    margin: auto;
+    width: 80%;
+    /*min-width: 10em;*/
+    background-color: #8794BF;
 }
 a {
-  font-style: italic;
-  font-weight: bold;
-  font-size: 1.5em;
-
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 .notion {
-  font-style: italic;
-  font-weight: bold;
-  min-width: 10em;
-  background-color: black;
-  border-radius: 0.625em;
-  color: white;
+    font-style: italic;
+    font-weight: bold;
+    min-width: 10em;
+    background-color: black;
+    border-radius: 0.625em;
+    color: white;
 }
 h1 {
-  text-align: center;
+    text-align: center;
+    font-size: 1.5em;
 }
 h3 {
-  text-align: right;
-  font-style: italic;
+    text-align: right;
+    font-style: italic;
 }
 #nav {
-  width: 88%;
-	padding: 0; margin: 0;
-	text-align: center;
-  background-color: black;
-  border-radius: 0.5em;
-  color : white;
-  box-shadow: 0.06em 0.06em 0.75em #555;
-  margin-left: auto;
-  margin-right: auto;
+    width: 88%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    border-radius: 0.5em;
+    color: white;
+    box-shadow: 0.06em 0.06em 0.75em #555;
+    margin-left: auto;
+    margin-right: auto;
 }
 #nav li {
-	display: inline;
-	list-style: none;
+    display: inline;
+    list-style: none;
+}
 #nav a {
-	display:inline-block;
-	margin:10%;
-  color: white;
-  font-size: 1.3em
+        display: inline-block;
+        margin: 10%;
+        color: white;
+        font-size: 1.3em
+    }
+
+@media screen and (max-width: 768px)  {
+    body {
+        background-color: #6161FF;
+    }
+    #header {
+        width: 100%;
+    }
+    .top {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+    * {
+        font-family: nunito, fantasy;
+        padding-top: 0.313em;
+        padding-bottom: 0.313em;
+    }
+    ul {
+        text-align: center;
+        font-size: 1.9em;
+    }
+    p {
+        font-size: 1em;
+    }
+    #logo {
+        max-width: 180px;
+        height: 100%;
+        height: auto;
+        margin: auto;
+        float: left;
+    }
+    div {
+        font-size: 1.9em;
+        border-radius: 0.5em;
+        border: solid black 0.062em;
+        padding: 2em;
+        margin: auto;
+        width: 87%;
+        /*min-width: 10em;*/
+        background-color: #8794BF;
+    }
+    a {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    .notion {
+        font-style: italic;
+        font-weight: bold;
+        min-width: 10em;
+        background-color: black;
+        border-radius: 0.625em;
+        color: white;
+    }
+    h1 {
+        text-align: center;
+        font-size: 1.5em;
+    }
+    h3 {
+        text-align: right;
+        font-style: italic;
+    }
+    #nav {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        background-color: black;
+        border-radius: 0.5em;
+        color: white;
+        box-shadow: 0.06em 0.06em 0.75em #555;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #nav li {
+        display: inline;
+        list-style: none;
+    }
+    #nav a {
+            display: inline-block;
+            margin: 10%;
+            color: white;
+            font-size: 1.3em
+        }
 }
